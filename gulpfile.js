@@ -3,7 +3,8 @@ const   elixir = require('laravel-elixir'),
         lost = require('lost'),
         axis = require('axis'),
         rupture = require('rupture'),
-        htmlmin = require('gulp-htmlmin');
+        htmlmin = require('gulp-htmlmin'),
+        autoprefixer = require('autoprefixer-stylus');
 
 require('laravel-elixir-vue');
 require('laravel-elixir-imagemin');
@@ -42,7 +43,8 @@ elixir(mix => {
         use: [
             axis(),
             rupture(),
-            postStylus(['lost', 'postcss-position'])
+            postStylus(['lost', 'postcss-position']),
+            autoprefixer()
         ]
     })
     .webpack('app.js')

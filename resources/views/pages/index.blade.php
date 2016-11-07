@@ -10,7 +10,7 @@
     <!-- Top Scripts Here -->
 @stop
 @section('content')
-    <!-- Content Here -->
+    test<!-- Content Here -->
 @stop
 @section('scripts_bottom')
     <!-- Bottom Scripts Here -->
