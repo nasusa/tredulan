@@ -1,10 +1,9 @@
 const   elixir = require('laravel-elixir'),
         postStylus = require('poststylus'),
-        lost = require('lost'),
         axis = require('axis'),
         rupture = require('rupture'),
         htmlmin = require('gulp-htmlmin'),
-        autoprefixer = require('autoprefixer-stylus');
+        cssnano = require('gulp-cssnano');
 
 require('laravel-elixir-vue');
 require('laravel-elixir-imagemin');
@@ -20,8 +19,6 @@ require('laravel-elixir-imagemin');
  |
  */
 
-elixir.config.sourcemaps = true;
-
 elixir.extend('compress', function() {
     new elixir.Task('compress', function() {
         return gulp.src('./storage/framework/views/*')
@@ -36,6 +33,18 @@ elixir.extend('compress', function() {
     .watch('./resources/views/**/*.blade.php');
 });
 
+elixir.extend('cssnano', function() {
+    new elixir.Task('cssnano', function() {
+        return gulp.src('./public/css/*.css')
+            .pipe(cssnano({
+                safe:true,
+                autoprefixer: {add:true}
+            }))
+            .pipe(gulp.dest('./public/css/'));
+    })
+    .watch('./public/css/*.css');
+});
+
 elixir(mix => {
     mix
     .stylus('app.styl', null, {
@@ -43,8 +52,7 @@ elixir(mix => {
         use: [
             axis(),
             rupture(),
-            postStylus(['lost', 'postcss-position']),
-            autoprefixer()
+            postStylus(['lost', 'postcss-position'])
         ]
     })
     .webpack('app.js')
@@ -55,8 +63,9 @@ elixir(mix => {
         interlaced: true
     })
     .browserSync({
-        proxy: 'homestead.app',
+        proxy: 'tredulan.dev',
         notify: false
     })
+    .cssnano()
     .compress();
 });
