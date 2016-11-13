@@ -55,8 +55,9 @@ elixir(mix => {
             postStylus(['lost', 'postcss-position'])
         ]
     })
-    .webpack('app.js')
+    .cssnano()
     .version('css/app.css')
+    .webpack('app.js')
     .imagemin({
         optimizationLevel: 3,
         progressive: true,
@@ -66,6 +67,5 @@ elixir(mix => {
         proxy: 'tredulan.dev',
         notify: false
     })
-    .cssnano()
     .compress();
 });
