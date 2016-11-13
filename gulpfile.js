@@ -41,8 +41,9 @@ elixir.extend('cssnano', function() {
                 autoprefixer: {add:true}
             }))
             .pipe(gulp.dest('./public/css/'));
+
     })
-    .watch('./public/css/*.css');
+    .watch('./resources/assets/stylus/**/*.styl');
 });
 
 elixir(mix => {
@@ -55,9 +56,8 @@ elixir(mix => {
             postStylus(['lost', 'postcss-position'])
         ]
     })
-    .cssnano()
-    .version('css/app.css')
     .webpack('app.js')
+    .version('css/app.css')
     .imagemin({
         optimizationLevel: 3,
         progressive: true,
@@ -67,5 +67,6 @@ elixir(mix => {
         proxy: 'tredulan.dev',
         notify: false
     })
+    .cssnano()
     .compress();
 });
