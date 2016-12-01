@@ -11,6 +11,7 @@
     </head>
     <body>
         @include('layouts.app.navbar')
+        @include('layouts.app.sidebar')
         @include('errors.list') 
         @yield('content')
         @include('layouts.app.footer') 

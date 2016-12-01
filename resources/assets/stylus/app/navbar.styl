@@ -1,7 +1,75 @@
 nav {
-    height: 60px;
-    background: rgba(34,34,34,0.6);
+    line-height: 90px;
+    height: 90px;
+    background: alpha(black,.6);
+    position: relative;
+    z-index: 999;
     width: 100%;
+    text-decoration: none;
     color: white;
-    font-size: 2em;
+}
+
+.container {
+  display: -webkit-box;
+}
+
+ul {
+  list-style: none;
+}
+
+nav div {
+  text-align: center;
+}
+
+nav div:first-child {
+  width: calc(100% * 1/4 - (15px - 15px * 1/4));
+  color: #fff;
+}
+
+nav div:nth-child(2) {
+  width: calc(100% * 2/4 - (15px - 15px * 2/4));
+  color: #dcdcdc;
+  font-size: 1.8em;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+nav div:nth-child(2):nth-child(1n) {
+  margin-right: 15px;
+}
+
+nav div:nth-child(2) a:hover {
+  text-decoration: underline;
+}
+nav div:nth-child(2) ul {
+  display: -webkit-inline-box;
+  display: inline-flex;
+}
+nav div:nth-child(2) ul li {
+  margin: 0 15px;
+}
+nav div:last-child {
+  width: calc(100% * 1/4 - (15px - 15px * 1/4));
+  color: #dcdcdc;
+  font-size: 1em;
+}
+nav div:last-child:nth-child(1n) {
+  margin-right: 15px;
+}
+nav div:last-child:last-child {
+  margin-right: 0;
+}
+
+nav div:last-child ul {
+  display: -webkit-inline-box;
+  display: inline-flex;
+}
+
+nav div:last-child ul li {
+  margin: 0 5px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }

@@ -67,6 +67,4 @@ elixir(mix => {
         proxy: 'tredulan.dev',
         notify: false
     })
-    .cssnano()
-    .compress();
 });

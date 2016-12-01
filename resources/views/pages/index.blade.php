@@ -12,16 +12,9 @@
 @section('content')
 
 <section class="mainhero">
-  <h1>Tampereen seudun ammattiopisto</h1>
-  <h2>LANPARTY</h2>
-</section>
-
-<section class="middleman">
-  
-  <a href="#" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
-  <a href="#" class="icon-button instagram"><i class="fa fa-instagram"></i><span></span></a>
-  <a href="#" class="icon-button envelope-o"><i class="fa fa-envelope-o"></i><span></span></a> 
-  
+  <h1 class="mainh1">Tampereen seudun ammattiopisto</h1>
+  <h2 class="mainh2">LANPARTY</h2>
+  <p class="mainp">24.-26.03.2017</p>
 </section>
 
 @stop

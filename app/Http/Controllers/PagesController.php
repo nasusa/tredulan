@@ -28,4 +28,24 @@ class PagesController extends Controller
     {
         return view('pages.aboutus');
     }
+    public function info()
+    {
+        return view('pages.info');
+    }
+    public function rules()
+    {
+        return view('pages.rules');
+    }
+    public function schedule()
+    {
+        return view('pages.schedule');
+    }
+    public function guide()
+    {
+        return view('pages.guide');
+    }
+    public function contact()
+    {
+        return view('pages.contact');
+    }
 }

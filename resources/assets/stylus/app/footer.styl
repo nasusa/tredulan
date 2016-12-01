@@ -1,3 +1,117 @@
-footer {
-      
+footer { 
+    position: relative;
+    text-align: center;
+    z-index: 999;
+    width: 100%;
+    margin-bottom: 30px;
+}
+      /* Wrapper */
+.icon-button {
+	background-color: white;
+	border-radius: 20px;
+	display: inline-block;
+	font-size: 5rem;
+	height: 10rem;
+	line-height: 10rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	width: 10rem;
+  margin-top: 0.7em;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 20px;
+	margin: -5rem;
+}
+
+/* Icons */
+.icon-button i {
+	color: white;
+	height: 10rem;
+	left: 0;
+	line-height: 10rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 10rem;
+	z-index: 10;
+}
+
+.facebook  {
+	background-color: rgba(80,122,189,.7);
+}
+.instagram {
+	background-color: rgba(102, 208, 121,.7);
+}
+.envelope-o {
+	background-color: rgba(203,32,39,.7);
+}
+
+
+/*HOVER*/
+
+
+.facebook span {
+	background-color: rgba(80,122,189,.7);
+}
+.instagram span {
+	background-color: rgba(100, 190, 120,.9);
+}
+.envelope-o span {
+	background-color: rgba(203,32,39,.7);
+}
+
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-google-plus,
+.icon-button:hover .fa-tumblr,
+.icon-button:hover .fa-instagram,
+.icon-button:hover .fa-youtube,
+.icon-button:hover .fa-pinterest {
+	color: white;
+}
+
+@media all and (max-width: 680px) {
+  .icon-button {
+    border-radius: 1.6rem;
+    font-size: 0.8rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .icon-button:hover span {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 1.6rem;
+    margin: -0.8rem;
+  }
+
+  /* Icons */
+  .icon-button i {
+	  height: 1.6rem;
+	  line-height: 1.6rem;
+	  width: 1.6rem;
+  }
 }
