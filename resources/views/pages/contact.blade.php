@@ -13,25 +13,31 @@
 
 <section class="mainherocontact">
 
-<form action="">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Contact Me</h1>
+                <hr>
+                <form action="{{ url('contact') }}" method="POST">
+                    {{ csrf_field() }}
+                    <div class="form-group">
+                        <label name="email">Email:</label>
+                        <input id="email" name="email" class="form-control">
+                    </div>
 
-<h1> Ota meihin yhteyttä!</h1>
+                    <div class="form-group">
+                        <label name="subject">Subject:</label>
+                        <input id="subject" name="subject" class="form-control">
+                    </div>
 
-  <input type="text" placeholder="Nimi" name="nimi" required>
+                    <div class="form-group">
+                        <label name="message">Message:</label>
+                        <textarea id="message" name="message" class="form-control">Type your message here...</textarea>
+                    </div>
 
-  <input type="email" placeholder="Email" name="email" required>
-  
-  <input type="class" placeholder="Luokka" name="luokka" required>
-
-  <textarea placeholder="Viesti" name="viesti" required></textarea>
-
-  <div class="captcha">
-    <input type="text" placeholder="Answer" name="captcha" required>
-    <input type="text" value="2 + 3 =" name="question"  required readonly>
-  </div>
-
-  <input type="submit" value="Send">
-</form>
+                    <input type="submit" value="Send Message" class="btn btn-success">
+                </form>
+            </div>
+        </div>
 
 </section>
 
