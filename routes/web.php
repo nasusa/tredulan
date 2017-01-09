@@ -20,4 +20,4 @@ Route::get('info', 'PagesController@info');
 Route::get('rules', 'PagesController@rules');
 Route::get('schedule', 'PagesController@schedule');
 Route::get('guide', 'PagesController@guide');
-Route::get('contact', 'PagesController@contact');
+Route::get('tournaments', 'PagesController@tournaments');

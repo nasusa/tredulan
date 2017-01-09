@@ -16,35 +16,35 @@
 <section class="containerboxguide">
     <div class="row kuvaboksi">
         <figure class="first">
-            <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/v1478696101/11009232885_b83be67d8c_k_phydpw.jpg" class="boxguide">
-            <figcaption><span class="header"><a href="{{url('/')}}" class="{!! set_active('/')">CONSECTETUR <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
-            <br> Vivamus eget consectetur velit. Pellentesque eros tortor, elementum nec pretium ac, tristique at urna. Suspendisse sagittis eros gravida nisl tincidunt, sit amet feugiat ex placerat.
+            <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/c_fit,h_250,w_300/v1483955672/kahvi_fdwrxv.png" class="boxguide">
+            <figcaption><span class="header"> KAHVIO <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            <br> Koulumme catering-puolen opiskelijat järjestävät kahvioon pientä välipalaa. Omat kodinkoneet ovat ehdottomasti kiellettyjä. Kahviosta löytyy mikro jos haluaa lämmittää omat eväät.
             </figcaption>
         </figure>
         <figure class="first">
-            <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/v1478695798/7536254266_13771dc965_k_gs2uil.jpg" class="boxguide">
-            <figcaption><span class="header"><a href="{{url('/')}}" class="{!! set_active('/')">DOLOR SIT AMET <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
-            <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra, sem ornare sagittis pulvinar, est nulla posuere erat, at lacinia turpis tortor non enim. Morbi in erat quis ligula eleifend feugiat in bibendum sem.
+            <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/v1483955672/pakkaus_xijbsh.png" class="boxguide">
+            <figcaption><span class="header"> PAKKAAMINEN <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            <br> Mukaan tarvitset tietokoneen/konsolin, näytön, tarvittavat johdot ja oheislaitteet, (Kaiuttimet kielletty, lue säännöt) verkkokaapelin sekä hyvän mielen! Luokkahuoneissa on kiellettyä kävellä ulkokengillä. Otathan mukaan sisäkengät.
             </figcaption>
         </figure>
         <figure class="first">
-            <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/v1478695466/6477358187_dbfa1087fb_b_k30tbs.jpg" class="boxguide">
-            <figcaption><span class="header"><a href="{{url('aboutme')}}" class="{!! set_active('/')">LOREM IPSUM<i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
-            <br> In hac habitasse platea dictumst. Donec molestie et purus pulvinar posuere. Nullam sem enim, accumsan non venenatis vitae, vestibulum vitae leo. Aenean vitae nisi at ex tristique laoreet mattis vel ex. 
+            <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/c_fit,w_300/v1483955672/teltta_po3ayt.png" class="boxguide">
+            <figcaption><span class="header"> NUKKUMINEN <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            <br> Nukkumiseen tarkoitettu tila järjestetään halukkaille sähkötalon 4krs. luokassa S4XXX. Suosittelemme tuomaan oma patjan, tyynyn sekä makuupussin. Nukkuminen on sallittua vain sille tarkoitetulla alueella. 
             </figcaption>
         </figure>
     </div>
     <div class="row kuvaboksi">
         <figure class="second">
-            <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/v1478695466/6477358187_dbfa1087fb_b_k30tbs.jpg" class="boxguide">
-            <figcaption><span class="pacificoh2"><a href="{{url('aboutme')}}" class="{!! set_active('/')">Adipiscing elit<i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
-            <br> Vivamus eget consectetur velit. Pellentesque eros tortor, elementum nec pretium ac, tristique at urna. Suspendisse sagittis eros gravida nisl tincidunt, sit amet feugiat ex placerat.
+            <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/v1483956417/CrossedSwords-2400px_xz6vrc.png" class="boxguide">
+            <figcaption><span class="pacificoh2"> Turnaukset <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            <br> Järjestämme tapahtumassa mahdollisuuksien mukaan turnauksia. Lisätietoa tulee myöhemmin. Seuraa meitä facebookissa niin pysyt ajantasalla!
             </figcaption>
         </figure>
         <figure class="second">
-            <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/v1478695466/6477358187_dbfa1087fb_b_k30tbs.jpg" class="boxguide">
-            <figcaption><span class="pacificoh2"><a href="{{url('/')}}" class="{!! set_active('/')">Proin viverra <i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
-            <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra, sem ornare sagittis pulvinar, est nulla posuere erat, at lacinia turpis tortor non enim. Morbi in erat quis ligula eleifend feugiat in bibendum sem.
+            <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/v1483955672/kello_jeat59.png" class="boxguide">
+            <figcaption><span class="pacificoh2"> Muu ohjelma <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            <br> Paikanpäältä löytyy lounge jossa voi viettää aikaa pelaamisen ohella, muutakin ohjelmaa on luvassa. Seuraa meitä facebookissa niin pysyt ajan tasalla!
             </figcaption>
         </figure>
     </div>

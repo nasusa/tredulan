@@ -44,8 +44,8 @@ class PagesController extends Controller
     {
         return view('pages.guide');
     }
-    public function contact()
+    public function tournaments()
     {
-        return view('pages.contact');
+        return view('pages.tournaments');
     }
 }

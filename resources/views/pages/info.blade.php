@@ -16,10 +16,10 @@
 <div class="infomiddle">
   <h1 class="infoh1"> INFO </h1>
   <h2 class="infoh2">SIJAINTI</h2>
-  <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/v1479465573/kartta_xmlcjc.png"style="width:500px;height:500px;">
-  <p></p>
+  <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/v1483955672/kartta_lkyorc.png"style="width:500px;height:500px;">
+  <p class="infop">Tapahtuma järjestetään Hepolamminkadun sähkötalon 4krs.. Tietokonepaikkoja on n.180 ja ne löytyvät luokista S4010, S4003, S4008 sekä S4012. Lounge on sähkötalon aulassa sekä sen läheisyydestä löytyy kahvio. Nukkuma-alue löytyy luokasta S40XX. Paikanpäällä löytyy opasteet okeisiin luokkiin. Muualla sähkötalossa oleskelu on kiellettyä. </p>
   <h2 class="infojar">JÄRJESTÄJÄT</h2>
-  <p class="infop">Tapahtuman järjestäjistä löydät lisää <a href="#"> ABOUT US </a> sivulta</p>
+  <p class="infop">Tapahtuman järjestäjistä löydät lisää <a href="/aboutus"> ABOUT US </a> sivulta</p>
 
 </section>
 
