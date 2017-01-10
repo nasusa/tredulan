@@ -16,7 +16,7 @@
 <div class="aboutmiddle">
   <h1 class="abouth1"> TIETOA MEISTÄ </h1>
  <!-- <div class="box"></div> -->
-  <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/c_fill,h_300,w_1000/v1478695466/6477358187_dbfa1087fb_b_k30tbs.jpg" class="aboutbox">
+  <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/c_fill,g_east,h_300,w_1000/v1484033168/eyes_q3yhes.jpg" class="aboutbox">
   <p class="aboutp">Tapahtuman pääjärjestäjät ovat tredu Hepolamminkadun tietoliikennepuolen kolmannenvuoden opiskelijat, 14TTIC02A ja B. Järjestämisessä apuna ovat myös muiden tredujen opiskelijat joista voit lukea lisää alempaa.</p>
   <h2 class="abouth2">Muut järjestäjät</h2>
   <p>Jotta tapahtumamme on turvallinen, mukana ovat koivistonkylän järjestyksenvalvoja opiskelijat. Tämän lisäksi Mediapolikselta tulee opiskelijoita kuvaamaan ja videoimaan tapahtumaa. Hepolamminkadun toimipisteeltä tulee kaksi opettajaa valvomaan sekä catering-puolelta tullaan järjestämään kahvio sähkötalolle tapahtuman ajaksi.  </p>
