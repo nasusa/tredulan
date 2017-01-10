@@ -12,7 +12,6 @@
 @section('content')
 
 <section class="mainheroguide">
-
 <section class="containerboxguide">
     <div class="row kuvaboksi">
         <figure class="first">
