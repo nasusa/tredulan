@@ -37,13 +37,13 @@
     <div class="row kuvaboksi">
         <figure class="second">
             <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/v1483956417/CrossedSwords-2400px_xz6vrc.png" class="boxguide">
-            <figcaption><span class="pacificoh2"> Turnaukset <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            <figcaption><span class="pacificoh2"> TURNAUKSET <i class="fa fa-angle-right" aria-hidden="true"></i></span>
             <br> Järjestämme tapahtumassa mahdollisuuksien mukaan turnauksia. Lisätietoa tulee myöhemmin. Seuraa meitä facebookissa niin pysyt ajantasalla!
             </figcaption>
         </figure>
         <figure class="second">
             <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/v1483955672/kello_jeat59.png" class="boxguide">
-            <figcaption><span class="pacificoh2"> Muu ohjelma <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            <figcaption><span class="pacificoh2"> MUU OHJELMA <i class="fa fa-angle-right" aria-hidden="true"></i></span>
             <br> Paikanpäältä löytyy lounge jossa voi viettää aikaa pelaamisen ohella, muutakin ohjelmaa on luvassa. Seuraa meitä facebookissa niin pysyt ajan tasalla!
             </figcaption>
         </figure>
