@@ -8,6 +8,10 @@
     color: #222;
     padding: 50px;
     margin-top:100px;
+        @media only screen and (max-width: 768px) {     
+            max-width: 300px;  
+            padding: 20px;
+    }
 }
 
 .rulesmiddle {
@@ -18,7 +22,10 @@
 
 .flex-container {
     display: -webkit-flex;
-    display: flex;  
+    display: flex;
+        @media only screen and (max-width: 768px) {     
+            display: table;  
+    }  
 }
     
 .flex-container {
@@ -31,6 +38,10 @@
     border-radius: 5%;
     width: 400px;
     margin: 10px;
+        @media only screen and (max-width: 768px) {     
+            width: 90%;  
+            padding: 20px;  
+    }
 }
 
 #wordwrap {   
