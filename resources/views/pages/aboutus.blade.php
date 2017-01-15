@@ -14,8 +14,8 @@
 <section class="mainheroaboutus">
 
 <div class="aboutmiddle">
-  <h1 class="abouth1"> TIETOA MEISTÄ </h1>
- <!-- <div class="box"></div> -->
+  <h1 class="abouth1">TIETOA MEISTÄ</h1>
+
   <img src="http://res.cloudinary.com/dpnzwgeil/image/upload/c_fill,g_east,h_300,w_1000/v1484033168/eyes_q3yhes.jpg" class="aboutbox">
   <p class="aboutp">Tapahtuman pääjärjestäjät ovat tredu Hepolamminkadun tietoliikennepuolen kolmannenvuoden opiskelijat, 14TTIC02A ja B. Järjestämisessä apuna ovat myös muiden tredujen opiskelijat joista voit lukea lisää alempaa.</p>
   <h2 class="abouth2">Muut järjestäjät</h2>

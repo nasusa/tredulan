@@ -6,21 +6,21 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  @media screen and (max-width: 540px){
-    display: none;
+@media screen and (max-width: 540px){
+  display: none;
   }
 }
 
 .menu li a{
-    display:block;
-    width:5em;
-    text-indent:-500em;
-    line-height:5em;
-    text-align:center;
-    color: #F08080;
-    position: relative;
-    border-bottom: 1px solid #ffe2e3;
-    transition: background 0.3s ease-in-out;
+  display:block;
+  width:5em;
+  text-indent:-500em;
+  line-height:5em;
+  text-align:center;
+  color: #F08080;
+  position: relative;
+  border-bottom: 1px solid #ffe2e3;
+  transition: background 0.3s ease-in-out;
 }
 
 .menu li a:before {
@@ -50,39 +50,39 @@
 }
 
 .menu li a.active:after{
-    position:absolute;
-    left:5em;
-    top:0;
-    border:2.5em solid transparent;
-    border-left-color:rgba(34,34,34,0.7);
-    border-width: 2.5em 1em
+  position:absolute;
+  left:5em;
+  top:0;
+  border:2.5em solid transparent;
+  border-left-color:rgba(34,34,34,0.7);
+  border-width: 2.5em 1em
 }
 
 .menu li{
-    position:relative;
+  position:relative;
 }
 
 .menu li:after{
-    content: attr(title);
-    position:absolute;
-    left:5em;
-    top:0;
-    height:5em;
-    color: white;
-    border-radius: 0px 25px 25px 0px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    text-transform:uppercase;
-    background: rgba(34,34,34,0.7);
-    padding:2em;
-    transition: all 0.3s ease-in-out;
-    visibility:hidden;
-    opacity:0;
+  content: attr(title);
+  position:absolute;
+  left:5em;
+  top:0;
+  height:5em;
+  color: white;
+  border-radius: 0px 25px 25px 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-transform:uppercase;
+  background: rgba(34,34,34,0.7);
+  padding:2em;
+  transition: all 0.3s ease-in-out;
+  visibility:hidden;
+  opacity:0;
 }
 
 .menu li:hover:after{
-    visibility:visible;
-    opacity:1;
+  visibility:visible;
+  opacity:1;
 }

@@ -14,8 +14,9 @@
 <section class="mainherorules">
 
 <div class="rulesmiddle">
-  <h2 class="rulesh2">Luethan säännöt huolellisesti ennen paikalle tuloa...</h2>
-  <p class="rulesp"> Tapahtuma on tarkoitettu vain Hepolamminkadun Tredun opiskelijoille. Näillä säännöillä toivomme että tapahtuma sujuu ongelmitta. Sääntöjä noudattamalla varmistamme että kaikilla on hauskaa ja turvallista tapahtumassamme. Tapahtuman sujuessa hyvin mahdollistamme uudelleen järjestämisen tulevina vuosina.  <p>
+    <h2 class="rulesh2">Luethan säännöt huolellisesti ennen paikalle tuloa...</h2>
+    <p class="rulesp"> Tapahtuma on tarkoitettu vain Hepolamminkadun Tredun opiskelijoille. Näillä säännöillä toivomme että tapahtuma sujuu ongelmitta. Sääntöjä noudattamalla varmistamme että kaikilla on hauskaa ja turvallista tapahtumassamme. Tapahtuman sujuessa hyvin mahdollistamme uudelleen järjestämisen tulevina vuosina.  <p>
+
 <div class="flex-container">
 
     <div class="flex-item"><h1><i class="fa fa-glass" aria-hidden="true"></i></h1><p id="wordwrap">Tapahtumapaikalle ei saa tuoda minkäänlaisia huumausaineita tai reseptilääkkeitä ilman reseptiä. Niiden sekä alkoholin nauttiminen ja hallussapito tapahtumassa sekä sen läheisyydessä on ehdottomasti kiellettyä. Tupakointi on sallittua vain sille sovitulla paikalla, koulualueen ulkopuolella. Tapahtumamme laskee sähkötupakan tupakkatuotteeksi, sen polttaminen sisätiloissa on kiellettyä ja johtaa laitteen takavarikoimiseen tapahtuman ajaksi tai kävijän poistamiseen tapahtumasta. </p> </div>
@@ -24,8 +25,8 @@
     </p></div>
     
     <div class="flex-item"><h1><i class="fa fa-volume-up" aria-hidden="true"></i></h1><p id="wordwrap">Omien kaiuttimien tuominen on kiellettyä. Jos konepaikalta kuuluu ylimääräistä mekkalaa joka häiritsee muita tapahtuman kävijöitä, järjestäjillä on oikeus takavarikoida äänentoistolaitteet tai muut häiritsevät tavarat tapahtuman ajaksi, tai poistaa kävijä tapahtumasta kokonaan.
-    
     </p></div>
+    
 </div>
 <div class="flex-container">
     
