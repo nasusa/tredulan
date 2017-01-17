@@ -48,4 +48,8 @@ class PagesController extends Controller
     {
         return view('pages.tournaments');
     }
+    public function infoscreen()
+    {
+        return view('pages.infoscreen');
+    }
 }

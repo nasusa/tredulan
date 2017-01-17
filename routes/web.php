@@ -21,3 +21,4 @@ Route::get('rules', 'PagesController@rules');
 Route::get('schedule', 'PagesController@schedule');
 Route::get('guide', 'PagesController@guide');
 Route::get('tournaments', 'PagesController@tournaments');
+Route::get('infoscreen', 'PagesController@infoscreen');
