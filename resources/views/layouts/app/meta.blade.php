@@ -5,6 +5,7 @@
 <meta name="keywords" content="@yield('keywords', 'Default, keywords')">
 <meta name="author" content="@yield('author', 'Your Name')">  
 {{--<link rel="icon" href="../../favicon.ico">--}}
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:600,700|Damion" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Raleway" rel="stylesheet">
