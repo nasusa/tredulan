@@ -87,7 +87,7 @@
        <li>
         <a href="#">
           <span class="event-time">10:00 - </span>
-          <span class="event-name">-TULOSSA-</span>
+          <span class="event-name">TULOSSA</span>
           <br />
           <span class="event-location"><!--content--></span>
         </a>
