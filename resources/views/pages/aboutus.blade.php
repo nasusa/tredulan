@@ -24,10 +24,6 @@
 <div class="social">
   <br>
     <i class="fa fa-envelope-o" aria-hidden="true"> tredulan@gmail.com</i>
-  <br>
-    <i class="fa fa-instagram" aria-hidden="true"> /tredulan</i>
-  <br>
-    <i class="fa fa-facebook" aria-hidden="true"> /groups/tredulanit2017/</i>
 </div>
 
 </section>
