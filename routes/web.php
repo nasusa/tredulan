@@ -15,10 +15,10 @@
 Auth::routes();
 
 Route::get('/', 'PagesController@index');
-Route::get('aboutus', 'PagesController@aboutus');
+Route::get('tietoameista', 'PagesController@tietoameista');
 Route::get('info', 'PagesController@info');
-Route::get('rules', 'PagesController@rules');
-Route::get('schedule', 'PagesController@schedule');
-Route::get('guide', 'PagesController@guide');
-Route::get('tournaments', 'PagesController@tournaments');
+Route::get('saannot', 'PagesController@saannot');
+Route::get('aikataulu', 'PagesController@aikataulu');
+Route::get('opas', 'PagesController@opas');
+Route::get('turnaukset', 'PagesController@turnaukset');
 Route::get('infoscreen', 'PagesController@infoscreen');

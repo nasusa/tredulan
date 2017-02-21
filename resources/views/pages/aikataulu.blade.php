@@ -24,48 +24,38 @@
   <li class= "events">
     <ul class="events-detail">
       <li>
-        <a href="#">
           <span class="event-time">20:00 - </span>
           <span class="event-name">Tapahtuma alkaa</span>
           <br />
           <span class="event-location">Sähkötalon ovet avataan</span>
-        </a>
       </li>
        
        <li>
-        <a href="#">
           <span class="event-time">21:00 - </span>
           <span class="event-name">TULOSSA</span>
           <br />
           <span class="event-location"><!--content--></span>
-        </a>
       </li>
       
        <li>
-        <a href="#">
           <span class="event-time">22:00 - </span>
           <span class="event-name">TULOSSA</span>
           <br />
           <span class="event-location"><!--content--></span>
-        </a>
       </li>
       
        <li>
-        <a href="#">
           <span class="event-time">22:30 - </span>
           <span class="event-name">TULOSSA</span>
           <br />
           <span class="event-location"><!--content--></span>
-        </a>
       </li>
       
        <li>
-        <a href="#">
           <span class="event-time">23:00 - </span>
           <span class="event-name">TULOSSA</span>
           <br />
           <span class="event-location"><!--content--></span>
-        </a>
       </li>
     </ul>  
   </li>
@@ -76,53 +66,105 @@
   <li class= "events cf">
     <ul class="events-detail">
       <li>
-        <a href="#">
           <span class="event-time">08:00 - </span>
           <span class="event-name">TULOSSA</span>
           <br />
           <span class="event-location"><!--content--></span>
-        </a>
       </li>
        
        <li>
-        <a href="#">
           <span class="event-time">10:00 - </span>
           <span class="event-name">TULOSSA</span>
           <br />
           <span class="event-location"><!--content--></span>
-        </a>
       </li>
       
        <li>
-        <a href="#">
           <span class="event-time">11:00 - </span>
           <span class="event-name">TULOSSA</span>
           <br />
           <span class="event-location"><!--content--></span>
-        </a>
       </li>
       
        <li>
-        <a href="#">
           <span class="event-time">15:00 - </span>
           <span class="event-name">TULOSSA</span>
           <br />
           <span class="event-location"><!--content--></span>
-        </a>
       </li>
       
        <li>
-        <a href="#">
+          <span class="event-time">20:00 - </span>
+          <span class="event-name">TULOSSA</span>
+          <br />
+          <span class="event-location"><!--content--></span>
+      </li>
+
+        <li>
+          <span class="event-time">22:00 - </span>
+          <span class="event-name">TULOSSA</span>
+          <br />
+          <span class="event-location"><!--content--></span>
+      </li>
+
+        <li>
+          <span class="event-time">22:30 - </span>
+          <span class="event-name">TULOSSA</span>
+          <br />
+          <span class="event-location"><!--content--></span>
+      </li>
+
+        <li>
+          <span class="event-time">23:00 - </span>
+          <span class="event-name">TULOSSA</span>
+          <br />
+          <span class="event-location"><!--content--></span>
+      </li>
+    </ul>   
+  </li>       
+    <li class="date">
+    <h3>Maaliskuu 26</h3>
+    <p>SUNNUNTAI</p>
+  </li>
+  <li class= "events cf">
+    <ul class="events-detail">
+      <li>
+          <span class="event-time">08:00 - </span>
+          <span class="event-name">TULOSSA</span>
+          <br />
+          <span class="event-location"><!--content--></span>
+      </li>
+       
+       <li>
+          <span class="event-time">10:00 - </span>
+          <span class="event-name">TULOSSA</span>
+          <br />
+          <span class="event-location"><!--content--></span>
+      </li>
+      
+       <li>
+          <span class="event-time">11:00 - </span>
+          <span class="event-name">TULOSSA</span>
+          <br />
+          <span class="event-location"><!--content--></span>
+      </li>
+      
+       <li>
+          <span class="event-time">15:00 - </span>
+          <span class="event-name">TULOSSA</span>
+          <br />
+          <span class="event-location"><!--content--></span>
+      </li>
+      
+       <li>
           <span class="event-time">20:00 - </span>
           <span class="event-name">Tapahtuma päättyy</span>
           <br />
           <span class="event-location">Tapahtuman purkaminen aloitetaan</span>
-        </a>
       </li>
     </ul>   
   </li>       
-</ul> 
-  
+</ul>   
 </div>
 
 </section>

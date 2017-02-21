@@ -24,29 +24,29 @@ class PagesController extends Controller
     {
         return view('pages.index');
     }
-    public function aboutus()
+    public function tietoameista()
     {
-        return view('pages.aboutus');
+        return view('pages.tietoameista');
     }
     public function info()
     {
         return view('pages.info');
     }
-    public function rules()
+    public function saannot()
     {
-        return view('pages.rules');
+        return view('pages.saannot');
     }
-    public function schedule()
+    public function aikataulu()
     {
-        return view('pages.schedule');
+        return view('pages.aikataulu');
     }
-    public function guide()
+    public function opas()
     {
-        return view('pages.guide');
+        return view('pages.opas');
     }
-    public function tournaments()
+    public function turnaukset()
     {
-        return view('pages.tournaments');
+        return view('pages.turnaukset');
     }
     public function infoscreen()
     {
